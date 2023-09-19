@@ -1,0 +1,6 @@
+.frameDiv {
+  background-color: var(--color-white);
+  width: 5px;
+  height: 36px;
+  overflow: hidden;
+}

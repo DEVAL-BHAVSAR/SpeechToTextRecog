@@ -1,0 +1,6 @@
+.microphoneAlt {
+  background-color: var(--color-gray);
+  width: 25px;
+  height: 25px;
+  overflow: hidden;
+}

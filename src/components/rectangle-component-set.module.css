@@ -1,0 +1,92 @@
+.instanceChild {
+  cursor: pointer;
+  border: 1px solid var(--color-black);
+  padding: 0;
+  background-color: var(--color-white);
+  position: relative;
+  border-radius: var(--br-11xl);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  box-sizing: border-box;
+  width: 428px;
+  height: 72px;
+  z-index: 0;
+}
+.instanceItem {
+  position: absolute;
+  margin: 0 !important;
+  height: 37.5%;
+  width: 6.54%;
+  top: 33.17%;
+  right: 85.52%;
+  bottom: 29.33%;
+  left: 7.94%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 1;
+}
+.property1default,
+.rectangleParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.rectangleParent {
+  position: relative;
+  gap: var(--gap-3xs);
+}
+.property1default {
+  position: absolute;
+  top: 20.12px;
+  left: 40px;
+  transform: rotate(-0.15deg);
+  transform-origin: 0 0;
+}
+.polygonIcon {
+  position: absolute;
+  margin: 0 !important;
+  height: 37.5%;
+  width: 6.54%;
+  top: 33.33%;
+  right: 85.54%;
+  bottom: 29.17%;
+  left: 7.91%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 1;
+}
+.rectangleGroup {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.property1,
+.property1english {
+  position: absolute;
+  top: 112px;
+  left: 20px;
+  width: 428px;
+  height: 72px;
+}
+.property1 {
+  top: 204px;
+}
+.property1defaultParent {
+  border-radius: 5px;
+  border: 1px dashed #9747ff;
+  box-sizing: border-box;
+  width: 468px;
+  height: 296px;
+  overflow: hidden;
+}
